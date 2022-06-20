@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    color: #227093;
+}
+h1::before{
+    content: '-';
+
+}
+h1::after{
+    content: '--';
+
+}
+h1{
+ margin-left: 50px;
+ color: #ff9f1a;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+        color: #25bf20;}
+
+.click-class{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.Click-mehedi{
+    text-decoration: none;
+    color: #fff;
+    background: #45aaf2;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative; 
+    z-index: 1;
+}
+.Click-mehedi::before{
+    content: "";
+    height:100%;
+    width:0;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    border-radius: 10px;
+    transition: .3s;
+    z-index: -1;
+  
+}
+.Click-mehedi:hover::before{
+    width: 100%;
+}
+.second-div{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.Sec-Div{
+    text-decoration: none;
+    font-size: 20px;
+    background: #45aaf2;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.Sec-Div::Before{
+    content: "";
+    background: #f7b731;
+    height:100%;
+    width:0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    transition: .4s;
+    z-index: -1;
+}
+.Sec-Div:hover::before{
+      width: 100%;
+}
+
+/* #3rd Div */
+.third-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.Mehedi{
+    text-decoration: none;
+    font-size: 20px;
+    background: #8d7953;
+    padding: 13px 30px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.Mehedi::before{
+   content: "";
+   background: #45aaf2;
+   height:0;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   
+   border-radius: 10px;
+   z-index: -1;
+   transition: .3s;
+}
+.Mehedi:hover::before{
+    height: 100%;
+}
+.four-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.Four{
+    text-decoration: none;
+    background: #353b48;
+    padding:16px 30px;
+    display:inline-block;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.Four::before{
+    content: "";
+    height:0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: #4cd137;
+    z-index: -1;
+    transition: .3s;
+}
+.Four:hover::before{
+    height: 100%;
+}
+h2::after{
+    content: '"';
+}
+h2::before{
+    content: '"';
+}
